@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+# EternitAI Voice — Landing Page
 
-## Project info
+A modern, fast, and responsive landing page for **EternitAI Voice**, an AI-powered voice receptionist that handles calls 24/7, books appointments, and captures leads for small businesses.
 
-**URL**: https://lovable.dev/projects/30d191f2-7889-4156-b5ff-0116d5003c88
+## 🔗 Live Demo
+_Add your Vercel deployment link here_
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
+- React + TypeScript  
+- Vite  
+- TailwindCSS  
+- Radix UI + shadcn/ui  
+- Deployed on Vercel  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/30d191f2-7889-4156-b5ff-0116d5003c88) and start prompting.
+## 📂 Project Structure
+```
+voice/
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
+```
+---
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+## ▶️ Development
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
 ```
+Runs on: http://localhost:5173
 
-**Edit a file directly in GitHub**
+## 🏗️ Production Build
+```
+npm run build
+npm run preview
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✨ Features
 
-**Use GitHub Codespaces**
+- Responsive landing page UI
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Clean minimalist design
 
-## What technologies are used for this project?
+- Fast Vite-based development
 
-This project is built with:
+- Reusable UI components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/30d191f2-7889-4156-b5ff-0116d5003c88) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Accessible Radix UI primitives
